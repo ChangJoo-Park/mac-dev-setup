@@ -41,6 +41,7 @@ cask "laverna"
 cask "bitbar"
 cask "caret"
 cask "popclip"
+cask "yakyak"
 
 # brew cask install browsers
 cask "google-chrome"
