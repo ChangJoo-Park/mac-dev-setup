@@ -1,0 +1,34 @@
+{
+  "sublimeTextKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": true,
+  "workbench.colorTheme": "Snazzy Operator",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Operator Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": true,
+    "suppressWelcomeNotice": true
+  },
+  "material-icon-theme.showUpdateMessage": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "git.confirmSync": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.renderWhitespace": "all",
+  "git.autofetch": true,
+  "files.associations": {
+    ".stylelintrc": "json"
+  },
+  "extensions.ignoreRecommendations": false,
+  "git.enableSmartCommit": true,
+  "terminal.integrated.fontFamily": "Operator Mono"
+}
