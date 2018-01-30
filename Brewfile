@@ -42,6 +42,7 @@ cask "bitbar"
 cask "caret"
 cask "popclip"
 cask "yakyak"
+cask "slack"
 
 # brew cask install browsers
 cask "google-chrome"
