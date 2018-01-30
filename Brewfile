@@ -2,6 +2,7 @@
 tap "caskroom/cask"
 tap "caskroom/fonts"
 tap "caskroom/drivers"
+tap "luckyframework/homebrew-lucky"
 
 # brew installs
 brew "zsh"
@@ -44,6 +45,7 @@ cask "popclip"
 cask "yakyak"
 cask "slack"
 cask "boom-3d"
+cask "alfred"
 
 # brew cask install browsers
 cask "google-chrome"
@@ -52,7 +54,7 @@ cask "google-chrome"
 cask "logitech-options"
 
 # brew cask install fonts
-cask "fira-code"
+cask "font-fira-code"
 
 # Mac Appstore
 mas "Xcode", id: 497799835
