@@ -1,3 +1,15 @@
+# Mac 환경 설정 모음
+
+개발환경 및 자주 사용하는 프로그램 설치는 Homebrew와 Brewfile을 이용합니다.
+
+```bash
+# Homebrew 설치
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Brewfile 실행
+brew bundle
+```
+
 ## 시스템 업데이트
 
   - High Sierra
