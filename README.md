@@ -13,7 +13,13 @@ defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
   - Spotlight 단축키 변경
   - 한영 전환 키 변경
-  - 한글에서 백틱 사용하기
+  - 한글에서 백틱 (`) 사용하기
+```bash
+mkdir ~/Library/KeyBindings
+touch ~/Library/KeyBindings/DefaultkeyBinding.dict
+echo '{ "₩" = ("insertText:", "`"); }' >> ~/Library/KeyBindings/DefaultkeyBinding.dict
+```
+
   - Dashboard 사용 중지 
 ```bash
 defaults write com.apple.dashboard mcx-disabled -boolean YES 
