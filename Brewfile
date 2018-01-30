@@ -43,6 +43,7 @@ cask "caret"
 cask "popclip"
 cask "yakyak"
 cask "slack"
+cask "boom-3d"
 
 # brew cask install browsers
 cask "google-chrome"
