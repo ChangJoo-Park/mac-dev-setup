@@ -26,7 +26,7 @@ brew "libevent"
 brew "libxml2"
 brew "libyaml"
 brew "llvm"
-
+brew "tig"
 
 # brew cask install dev-tools
 cask "iterm2"
