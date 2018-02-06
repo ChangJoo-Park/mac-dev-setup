@@ -101,6 +101,11 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ## 언어
 
   - Ruby
+```bash
+# rbenv in ~/.zshrc
+export PATH="$HOME/.rbenv/bin:$PATH" 
+eval "$(rbenv init -)"
+```
   - Python 
   - Node.js
   - Vue CLI 3.x
