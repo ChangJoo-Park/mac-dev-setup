@@ -6,6 +6,10 @@
 # Homebrew 설치
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# 이 저장소 클론
+git clone https://github.com/ChangJoo-Park/mac-dev-setup
+cd mac-dev-setup
+
 # Brewfile 실행
 brew bundle
 ```
