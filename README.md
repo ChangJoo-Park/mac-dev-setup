@@ -109,6 +109,9 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 # rbenv in ~/.zshrc
 export PATH="$HOME/.rbenv/bin:$PATH" 
 eval "$(rbenv init -)"
+
+# rbenv 문제로 Ruby를 설치할 수 없을 때, 2.5.0은 사용할 Ruby 버전
+RUBY_CONFIGURE_OPTS=--with-readline-dir="$(brew --prefix readline)" rbenv install 2.5.0
 ```
   - Python 
   - Node.js
