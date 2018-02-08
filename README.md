@@ -98,6 +98,10 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
   - Heroku
   - NVM
   - git
+```
+git config --global user.name "ChangJoo Park"
+git config --global user.email "pcjpcj2@gmail.com"
+```
   - TaskWarrior
   - openssl
   - mas
