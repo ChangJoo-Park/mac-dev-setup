@@ -86,10 +86,12 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 # ./zshrc 에 테마 설정
 ZSH_THEME="spaceship"
 ```
-  
+  - zsh autosuggestion
+```shell
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 ```
-npm install -g spaceship-prompt
-```
+
   - ssh-keygen
 ```
 ssh-keygen -t rsa -b 4096 -C "pcjpcj2@gmail.com"
