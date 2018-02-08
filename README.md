@@ -85,6 +85,7 @@ npm install -g spaceship-prompt
   - ssh-keygen
 ```
 ssh-keygen -t rsa -b 4096 -C "pcjpcj2@gmail.com"
+cat ~/.ssh/id_rsa.pub | pbcopy
 ```
 
 
