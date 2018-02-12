@@ -68,7 +68,7 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 ## 터미널
 
   - iTerm2
-  - iTerm2 Color Scheme - Adventure Time
+  - iTerm2 Color Scheme - [Adventure Time](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/AdventureTime.itermcolors)
   - zsh
 ```
 # zsh 을 기본으로 설정
