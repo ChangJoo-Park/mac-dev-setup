@@ -7,6 +7,7 @@ tap "luckyframework/homebrew-lucky"
 # brew installs
 brew "zsh"
 brew "zsh-completions"
+brew "starship"
 brew "git"
 brew "mas"
 brew "sqlite"
