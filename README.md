@@ -78,15 +78,9 @@ chsh -s /bin/zsh
 ```
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 ```
-  - zsh theme - [spaceship](https://github.com/denysdovhan/spaceship-zsh-theme)
-```shell
-git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
-ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
-# ./zshrc 에 테마 설정
-ZSH_THEME="spaceship"
-```
   - zsh autosuggestion
+
 ```shell
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
