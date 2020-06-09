@@ -110,6 +110,12 @@ git config --global user.email "pcjpcj2@gmail.com"
   - openssl
   - mas
 
+- [Volta](https://volta.sh/)
+
+
+```bash
+curl https://get.volta.sh | bash
+```
 
 ## 언어
 
